@@ -30,7 +30,7 @@ BASE_URL = '/api/'
  
 @app.route('/')
 def home():
-    return 'Welcome to my To-Do List!'
+    return 'Bienvenido a mi API con ORMS'
  
 @app.route(BASE_URL + 'tasks', methods=['POST'])
 def create_task():
